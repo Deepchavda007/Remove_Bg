@@ -1,0 +1,15 @@
+2023-12-30 10:38:44,336 - logger_config - INFO - [36m{'image_url': 'https://res.cloudinary.com/doj5cip5f/image/upload/v1703910195/samples/wpvkqnglmxzgmbz2fq.png'}[0m
+2023-12-30 10:38:45,518 - logger_config - ERROR - Error: OpenCV(4.8.1) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:802: error: (-215:Assertion failed) !buf.empty() in function 'cv::imdecode_'
+
+2023-12-30 10:38:45,518 - logger_config - ERROR - Exception type: <class 'cv2.error'>
+2023-12-30 10:38:45,518 - logger_config - ERROR - Exception value: OpenCV(4.8.1) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:802: error: (-215:Assertion failed) !buf.empty() in function 'cv::imdecode_'
+
+2023-12-30 10:38:45,518 - logger_config - ERROR - Exception traceback details: Traceback (most recent call last):
+  File "F:\remove_bg\process.py", line 74, in remove_background_and_upload
+    input_image = download_image(image_url)
+  File "F:\remove_bg\process.py", line 42, in download_image
+    image = cv2.imdecode(image, cv2.IMREAD_COLOR)
+cv2.error: OpenCV(4.8.1) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:802: error: (-215:Assertion failed) !buf.empty() in function 'cv::imdecode_'
+
+
+2023-12-30 10:38:51,805 - logger_config - INFO - [36m{'image_url': 'https://res.cloudinary.com/doj5cip5f/image/upload/v1703910195/samples/wpvkqnglmxzgmbz2fqrs.png'}[0m

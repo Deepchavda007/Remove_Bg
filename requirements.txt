@@ -1,0 +1,7 @@
+python-dotenv==1.0.0
+cloudinary==1.37.0
+rembg==2.0.53
+requests==2.31.0
+termcolor==2.4.0
+flask==3.0.0
+Flask-Cors==4.0.0
