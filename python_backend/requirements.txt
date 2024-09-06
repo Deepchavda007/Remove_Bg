@@ -1,0 +1,13 @@
+python-dotenv==1.0.0
+requests==2.31.0
+Flask-Cors==4.0.0
+rembg==2.0.53
+flask==3.0.0
+huggingface_hub
+scikit-image
+torchvision
+typing
+pillow
+numpy
+torch
+loguru
