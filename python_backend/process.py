@@ -82,11 +82,3 @@ def remove_background(payload):
 
 
 ###--------------------------------------------------------------------------###
-
-
-if __name__ == "__main__":
-    payload = {
-        "image_url": "https://res.cloudinary.com/doj5cip5f/image/upload/v1703910195/samples/wpvkqnglmxzgmbz2fqrs.png",
-        "image_id": "1234",
-    }
-    print(remove_background(payload))
