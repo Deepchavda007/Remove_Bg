@@ -96,3 +96,8 @@ python3 app.py
         "status": true
        }
     ```
+
+## Contribution
+<a href="https://github.com/Deepchavda007/Remove_Bg/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Deepchavda007/Remove_Bg" />
+</a>
