@@ -11,7 +11,7 @@ export class AppService {
   getGithubProfile(username: string) {
     return this.http.get(`https://api.github.com/users/${username}`, {
       headers: {
-        Authorization: `token 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`
+        Authorization: `token ${process.env.GITHUB_TOKEN}`
       }
     });
   }
