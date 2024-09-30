@@ -1,10 +1,17 @@
-```markdown
 <p>
   <div align="center">
-      <a href="https://github.com/Deepchavda007/Remove_Bg">
+      <a href="https://angular.io">
         <img
           src="https://angular.io/assets/images/logos/angular/angular.svg"
-          alt="Angular Project"
+          alt="Angular Logo"
+          width="300"
+          height="300"
+        />
+      </a>
+      <a href="https://www.python.org">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Python_logo_01.svg"
+          alt="Python Logo"
           width="300"
           height="300"
         />
@@ -12,13 +19,15 @@
   </div>
 </p>
 
-# Remove Background Image - Angular & Node.js Project
+
+
+# Remove Background Image
 
 This project allows users to upload an image, which is processed using a Python backend to remove the background, and then the final image is available for download.
 
 ## Project Repo
 
-- Frontend (Angular): [https://github.com/Deepchavda007/Remove_Bg](https://github.com/Deepchavda007/Remove_Bg)
+- Remove Bg (Angular/ Node js/ Python): [https://github.com/Deepchavda007/Remove_Bg](https://github.com/Deepchavda007/Remove_Bg)
 - Python Backend: [Python Backend Setup](https://github.com/Deepchavda007/Remove_Bg/blob/main/python_backend/README.md)
 
 ## Development Setup
@@ -69,17 +78,12 @@ The Node.js server listens for image upload requests and forwards them to the Py
 
 1. The user uploads an image via the Angular frontend.
 2. The image is sent to the Node.js server, which forwards the image to the Python backend.
-3. The Python backend processes the image to remove the background using machine learning.
+3. The Python backend processes the image to remove the background using deep learning.
 4. The processed image is returned to the frontend for download.
 
 Follow the steps in the [Python Backend Setup](https://github.com/Deepchavda007/Remove_Bg/blob/main/python_backend/README.md) for setting up the Python environment.
 
 ## Git Setup
-
-There are two branches in the repository:
-
-- `develop` for active development
-- `main` official branch used for production releases
 
 ### Cloning the repository
 
@@ -95,10 +99,9 @@ or using https:
 git clone https://github.com/Deepchavda007/Remove_Bg.git
 ```
 
-Check out `develop` or `main` and install dependencies:
+Install dependencies:
 
 ```bash
-git checkout develop
 npm install
 ```
 
@@ -110,37 +113,15 @@ Finally, start the development server:
 npm start
 ```
 
-## Contributing
+## Demo : 
 
-To contribute, create a new branch from the `develop` branch, and use a meaningful branch name with prefixes like `fix/` for bug fixes or `feat/` for new features:
 
-```bash
-git checkout -b feat/new-feature-name
-```
 
-After making changes, ensure there are no linting errors:
+https://github.com/user-attachments/assets/76fea35b-bf96-4632-a257-d2b92ee633f2
 
-```bash
-npm run lint
-```
 
-Fix any linting errors:
 
-```bash
-npm run lint:fix
-```
-
-Format your code using Prettier:
-
-```bash
-npm run prettier
-```
-
-Commit and push your changes:
-
-```bash
-git push
-```
-
-Finally, submit a pull request (PR) for review.
-```
+## Contribution
+<a href="https://github.com/Deepchavda007/Remove_Bg/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Deepchavda007/Remove_Bg" />
+</a>
