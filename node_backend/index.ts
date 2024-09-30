@@ -72,7 +72,7 @@ app.post('/upload', upload.single('image'), async (req: Request, res: Response, 
       }
 
       const imageId = generateImageId(); // Generate a unique image ID
-      const imageUrl = `https://594d-103-251-19-88.ngrok-free.app/uploads/${req.file.filename}`; // Generate image URL
+      const imageUrl = `process.env.ng_rok_url/uploads/${req.file.filename}`; // Generate image URL
 
       // Make POST request to the external API
       const apiResponse = await axios.post('http://127.0.0.1:8000/remove_bg', {
